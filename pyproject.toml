@@ -1,0 +1,27 @@
+[project]
+name = "aml-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "argcomplete>=3.5.3",
+    "black>=25.1.0",
+    "hydra-core>=1.3.2",
+    "ipykernel>=6.29.5",
+    "isort>=6.0.1",
+    "jinja2>=3.1.5",
+    "jupyter>=1.1.1",
+    "jupyter-black>=0.4.0",
+    "matplotlib>=3.10.1",
+    "mypy>=1.15.0",
+    "optuna>=4.2.1",
+    "pre-commit>=4.1.0",
+    "pyrootutils>=1.0.4",
+    "python-dotenv>=1.0.1",
+    "rich>=13.9.4",
+    "ruff>=0.9.9",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "wandb>=0.19.7",
+]
