@@ -1,8 +1,9 @@
-# Applied Machine Learning - Model Selection
+# Applied Machine Learning
+
+This repository contains notebooks for the Applied Machine Learning module at FHNW.
 
 ## Setup
 
 ```
-conda env create -f environment.yaml
-conda activate aml
+pip install .
 ```

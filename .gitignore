@@ -4,8 +4,9 @@ logs/*
 
 data/*
 !data/.gitkeep
+!data/breast_cancer.csv
 
-archive/*
+**/archive/*
 
 
 # Byte-compiled / optimized / DLL files
