@@ -38,13 +38,6 @@ repos:
       - id: pyupgrade
         args: [--py38-plus]
 
-  # python docstring formatting
-  - repo: https://github.com/myint/docformatter
-    rev: v1.4
-    hooks:
-      - id: docformatter
-        args: [--in-place, --wrap-summaries=99, --wrap-descriptions=99]
-
   # python check (PEP8), programming errors and code complexity
   - repo: https://github.com/PyCQA/flake8
     rev: 4.0.1
