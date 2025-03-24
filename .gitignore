@@ -4,7 +4,7 @@ logs/*
 
 data/*
 !data/.gitkeep
-!data/breast_cancer.csv
+!data/breast-cancer.csv
 
 **/archive/*
 
